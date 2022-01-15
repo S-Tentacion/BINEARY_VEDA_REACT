@@ -1,0 +1,31 @@
+@import "../src/assests/styles/index.css";
+
+body{
+  background-color: #050d15 !important;
+  color: #fff !important;
+}
+*:focus-visible {
+  box-shadow: none !important;
+  border: none;
+  outline: none !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  body{
+    background-color: #051115 !important;
+    color: #fff !important;
+  }
+  .content_box{
+    display: inline-block;
+    position: relative;
+    left: 2%;
+  }
+  .content_box p{
+    font-size: 12px;
+    margin: 10px;
+  }
+  .content_box h1{
+    font-size: 22px;
+    margin: 10px;
+  }
+}

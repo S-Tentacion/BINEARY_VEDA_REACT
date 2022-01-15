@@ -1,0 +1,53 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  width: 100px;
+}
+.xu-site-header {
+  background-color: white;
+}
+.top_user {
+  background-color: #fff;
+  border-radius: 30px !important;
+  text-align: center !important;
+  border: 1px solid black;
+  box-shadow: none;
+  font-size: 20px !important;
+  display: inline-block;
+}
+.content_box {
+  display: inline-block;
+  position: relative;
+  left: 35%;
+}
+.content_box p {
+  font-size: 22px;
+  margin: 20px;
+}
+.content_box h1 {
+  font-size: 42px;
+  margin: 20px;
+  font-weight: bold;
+}
+.inputBar {
+  width: 100% !important;
+  height: 50px;
+  border: 0px !important;
+  border-bottom: 1px solid black !important;
+  font-size: 32px;
+}
+.todoItem {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+.todoItemChecked {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 32px;
+  font-weight: bold;
+}
